@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d819cd11b830b14088d24f73278d07a, type: 3}
+  m_Name: Armor Flask
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Armor Flask
+  icon: {fileID: -165920498, guid: 1919245fc9ec290458f9137c029985bc, type: 3}
+  itemId: 9877dfe2dd31dd44fb21e8ecde4b5b12
+  dropChance: 100
+  EqupmentType: 3
+  itemCooldown: 10
+  itemEffects:
+  - {fileID: 11400000, guid: fbac9f6c9360a204bb48d98e4701a9e9, type: 2}
+  - {fileID: 11400000, guid: e3fdb2a0a1f0a3041afff7e8abdabf88, type: 2}
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  health: 0
+  armor: 20
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: f90d9fe2d2c43434aabbd5ca1bf073d8, type: 2}
+    stackSize: 1
+  - data: {fileID: 11400000, guid: 0c6e400e58fff9946800258615a39dbd, type: 2}
+    stackSize: 1

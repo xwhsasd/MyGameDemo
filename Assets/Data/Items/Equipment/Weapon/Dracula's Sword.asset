@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d819cd11b830b14088d24f73278d07a, type: 3}
+  m_Name: Dracula's Sword
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Dracula's Sword
+  icon: {fileID: -1944902997, guid: 1919245fc9ec290458f9137c029985bc, type: 3}
+  itemId: e4c3368884715ba44ab571d02a4ca42f
+  dropChance: 0
+  EqupmentType: 0
+  itemCooldown: 3
+  itemEffects:
+  - {fileID: 11400000, guid: 49c302fc31ca95442aadc562aa2b2856, type: 2}
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 15
+  critChance: 15
+  critPower: 0
+  health: 0
+  armor: 0
+  evasion: 0
+  magicResistance: 25
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: f90d9fe2d2c43434aabbd5ca1bf073d8, type: 2}
+    stackSize: 3

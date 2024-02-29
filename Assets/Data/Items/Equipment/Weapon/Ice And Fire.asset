@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d819cd11b830b14088d24f73278d07a, type: 3}
+  m_Name: Ice And Fire
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Ice And Fire
+  icon: {fileID: 1398721256, guid: 1919245fc9ec290458f9137c029985bc, type: 3}
+  itemId: 54926b3329dff83449472cdc031a6463
+  dropChance: 0
+  EqupmentType: 0
+  itemCooldown: 3
+  itemEffects:
+  - {fileID: 11400000, guid: a1b1b5b70e85e7746831d8c295742e80, type: 2}
+  - {fileID: 11400000, guid: 56ecfa8498d7d7344916b47efbf633a7, type: 2}
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 20
+  critChance: 0
+  critPower: 0
+  health: 15
+  armor: 0
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 5
+  iceDamage: 7
+  lightingDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: f90d9fe2d2c43434aabbd5ca1bf073d8, type: 2}
+    stackSize: 5
